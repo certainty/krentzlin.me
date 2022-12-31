@@ -1,0 +1,4 @@
+baseURL = 'http://david.krentzlin.me/'
+languageCode = 'en-us'
+title = 'David Krentzlin'
+theme = 'pico'
