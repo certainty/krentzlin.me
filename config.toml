@@ -1,4 +1,74 @@
 baseURL = 'http://david.krentzlin.me/'
 languageCode = 'en-us'
 title = 'David Krentzlin'
-theme = 'pico'
+theme = 'hugo-initio'
+
+[params]
+    name = "David Krentzlin"
+    description = "Eternal beginner"
+    email = "david.krentzlin@gmail.com"
+    year = 2023
+    avatar = "images/david.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/bg_head.jpg"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = true
+    showClients = true
+
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = true
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "writing"
+    url = "/writing/"
+    weight = 5
+
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 6
+
+[[params.social]]
+	title = "github"
+	url = "https://github.com/certainty"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/certainty"
+    icon = "fab fa-twitter-square"
+    footer = true
+    sharethis = false
+    network = "twitter"
+
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/david-krentzlin-b1708818b/"
+    icon = "fab fa-linkedin"
+    footer = true
+    sharethis = false
+    network = "linkedin"
+
+[[params.social]]
+	title = "email"
+	url = "mailto:david.krentzlin@gmail.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
