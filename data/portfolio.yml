@@ -1,0 +1,57 @@
+portfolioitems:
+  # portfolio category
+  - title: Career 
+    # items within a category
+    portfolioitem:
+      - name: New Work SE - Senior Software Architect  
+        #image: '/images/portfolio/code.jpg'
+        link: https://www.new-work.se/ 
+        description: 'Supporting the cloud platform team, to elevate the engineering organisation into the cloud.'
+        tags:
+          - AWS 
+          - Terraform
+          - Cloud
+          - Architecture
+          - Typescript
+        status: 'Ongoing'
+        start: 'Jan 2023'
+        authors: []
+      - name: Hive Technologies - Tech Lead 
+        #image: '/images/portfolio/code.jpg'
+        link: https://www.hive.app/ 
+        description: 'Technical leadership in the delivery and end-customer experience team. Working on carrier integrations and the end-customer app.'
+        tags:
+          - Ruby on Rails 
+          - Ruby
+          - AWS 
+          - Leadership 
+          - Agile
+        start: 'Aug 2022'
+        end: 'Jan 2023'
+        authors: []
+      - name: New Work SE - Team Lead Architecture
+        #image: '/images/portfolio/code.jpg'
+        link: https://www.new-work.se/ 
+        description: 'Lead the API platform team, that manages the GraphQL platform for New Work.'
+        tags:
+          - Management 
+          - Leadership
+          - Architecture 
+          - Communication 
+          - Agile
+        start: 'Mar 2020'
+        end: 'Aug 2022'
+        authors: []
+      - name: New Work SE - Senior Software Engineer  
+        #image: '/images/portfolio/code.jpg'
+        link: https://www.new-work.se/ 
+        description: 'As part of the API platform team, I helped to develop the GraphQL platform that powers the New Work platform.'
+        tags:
+          - GraphQL 
+          - Scala
+          - Distributed systems
+          - Software Architecture & Design
+          - K8s
+        start: 'Dec 2015'
+        end: 'Mar 2020'
+        authors: []

@@ -1,74 +1,48 @@
 baseURL = 'http://david.krentzlin.me/'
 languageCode = 'en-us'
 title = 'David Krentzlin'
-theme = 'hugo-initio'
+theme = 'anatole'
+
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
-    name = "David Krentzlin"
-    description = "Eternal beginner"
-    email = "david.krentzlin@gmail.com"
-    year = 2023
-    avatar = "images/david.jpg"
-    avatarclass = "circle"
-    background = ""
-    banner = "images/bg_head.jpg"
-    favicon = "images/gt_favicon.png"
-    DateForm = "January 2, 2006"
-
-    showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownloads = true
-    showClients = true
-
-    showFooterContact = true
-    showFooterFollowMe = true
-    showFooterTextWidget = true
-    showFooterFormWidget = true
+title = "David Krentzlin"
+description = "Show up. Do the work. Finish strong."
+profilePicture = "images/profile.jpg"
+doNotLoadAnimations = true
+copyright = "David Krentzlin {{ YEAR }}"
 
 [[menu.main]]
     name = "home"
-    url = "/"
+    url = "/home/"
     weight = 1
 
 [[menu.main]]
-    name = "writing"
-    url = "/writing/"
+    name = "Professional"
+    url = "/portfolio/"
     weight = 5
 
-[[menu.main]]
-    name = "about"
-    url = "/about/"
-    weight = 6
-
-[[params.social]]
+[[params.socialIcons]]
 	title = "github"
 	url = "https://github.com/certainty"
-    icon = "fab fa-github"
-    footer = true
-    sharethis = false
-    network = ""
+  icon = "fab fa-github"
+  network = ""
 
-[[params.social]]
+[[params.socialIcons]]
 	title = "twitter"
 	url = "https://twitter.com/certainty"
-    icon = "fab fa-twitter-square"
-    footer = true
-    sharethis = false
-    network = "twitter"
+  icon = "fab fa-twitter-square"
 
-[[params.social]]
+[[params.socialIcons]]
 	title = "linkedin"
 	url = "https://www.linkedin.com/in/david-krentzlin-b1708818b/"
-    icon = "fab fa-linkedin"
-    footer = true
-    sharethis = false
-    network = "linkedin"
+  icon = "fab fa-linkedin"
 
-[[params.social]]
+[[params.socialIcons]]
 	title = "email"
 	url = "mailto:david.krentzlin@gmail.com"
-    icon = "fas fa-envelope-square"
-    footer = false
-    sharethis = true
-    network = "email"
+  icon = "fas fa-envelope-square"
+
+[mermaid]
+ enable = true
